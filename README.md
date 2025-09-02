@@ -1,1 +1,1 @@
-the style and index is for the fun_page activity sir
+the style and index is for the fan_page activity sir
