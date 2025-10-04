@@ -131,8 +131,11 @@ form.addEventListener('submit', function(e) {
 
         surveyData.push(formData);
         console.log('🔥 LEGENDARY SURVEY DATA STORED! 🔥', surveyData);
+        console.log('Latest submission:', formData);
 
-        // YEET to the thank you page!
-        window.location.href = 'thankyou.html';
+        // Delay redirect so you can see the console log
+        setTimeout(() => {
+            window.location.href = 'thankyou.html';
+        }, 2000); // 2 seconds delay
     }
 });
